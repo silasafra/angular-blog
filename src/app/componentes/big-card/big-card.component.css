@@ -1,0 +1,37 @@
+.main-post {
+  width: 100%;
+  position: relative;
+}
+.main-post .bg-post {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.main-post_content {
+  background-color: var(--white-color);
+  padding: 2.5rem;
+  position: absolute;
+  left: 64px;
+  bottom: -64px;
+  max-width: 598px;
+  border-radius: 12px;
+  box-shadow: 0px 12px 24px -6px rgba(24, 26, 42, 0.12);
+}
+
+.tag {
+  background-color: var(--cta-color);
+  color: var(--white-color);
+  padding: 0.25rem 0.62rem;
+  border-radius: 0.38rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.main-post h3 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 36px;
+  line-height: 2.5rem;
+}

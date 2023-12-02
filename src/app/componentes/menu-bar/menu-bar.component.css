@@ -1,0 +1,22 @@
+/* Nav component  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+li {
+  list-style: none;
+  color: var(text-secundary-color);
+  transition: 0.2s;
+  cursor: pointer;
+}
+li:hover {
+  color: var(--cta-color);
+}
