@@ -1,14 +1,11 @@
-<app-components-menu-bar></app-components-menu-bar>
-<app-big-card></app-big-card>
-<section class="latest-post">
-  <h3>Latest Post</h3>
-  <div class="posts">
-    <app-post-card></app-post-card>
-    <app-post-card></app-post-card>
-    <app-post-card></app-post-card>
-    <app-post-card></app-post-card>
-    <app-post-card></app-post-card>
-    <app-post-card></app-post-card>
-    <app-post-card></app-post-card>
-  </div>
-</section>
+<div class="container">
+  <app-components-menu-bar></app-components-menu-bar>
+  <app-big-card></app-big-card>
+  <section class="latest-post">
+    <h3>Latest Post</h3>
+    <div class="posts">
+      <app-post-card *ngFor="let post of dataPosts" banner="dataPosts.banner">
+      </app-post-card>
+    </div>
+  </section>
+</div>

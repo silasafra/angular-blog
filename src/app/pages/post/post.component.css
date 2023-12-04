@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.cover-banner img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
